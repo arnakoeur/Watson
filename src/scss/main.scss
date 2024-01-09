@@ -40,6 +40,20 @@ video {
   vertical-align: middle;
 }
 
+header {
+  padding: 20px 0px 20px;
+  background-color: black;
+  .burger {
+    max-height: 20px;
+  }
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .section-title {
   font-family: open-sans, sans-serif;
   font-weight: 800;
@@ -111,6 +125,7 @@ video {
 }
 
 .badge-inter-out {
+  display: inline-block;
   top: 10px;
   background-color: #1837b6;
   color: white;
@@ -145,7 +160,73 @@ video {
   font-size: 10px;
   padding: 2px 10px;
   p {
-    text-transform: capitalize;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 800px) {
+  .badge-suisse {
+    position: absolute;
+    top: 20px;
+    background-color: #7cd401;
+    color: white;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding: 4px 10px;
+  }
+
+  .badge-inter {
+    position: absolute;
+    top: 20px;
+    background-color: #1837b6;
+    color: white;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding: 4px 10px;
+  }
+
+  .badge-inter-out {
+    display: inline-block;
+    top: 20px;
+    background-color: #1837b6;
+    color: white;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding: 4px 10px;
+    margin-bottom: 20px;
+  }
+
+  .badge-sport {
+    position: absolute;
+    top: 20px;
+    background-color: #e41e13;
+    color: white;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding: 4px 10px;
+  }
+
+  .badge-society {
+    position: absolute;
+    top: 20px;
+    background-color: #068763;
+    color: white;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding: 4px 10px;
+    p {
+      text-transform: uppercase;
+    }
   }
 }
 
@@ -165,7 +246,7 @@ video {
 @media (min-width: 800px) {
   .headline-news-title {
     position: absolute;
-    bottom: 10px;
+    bottom: 15px;
     background-color: #f40f97;
     color: white;
     font-family: open-sans, sans-serif;
@@ -307,12 +388,16 @@ video {
 
 .section-black {
   background-color: #222222;
-  margin-bottom: 60px;
   padding: 30px 0px 60px 0px;
 }
 
-.small-newsline-hori {
-  display: flex;
+.small-newsline-hori-img {
+  object-fit: cover;
+}
+
+footer {
+  object-fit: cover;
+  width: 100%;
 }
 /* ====================================
 // base rules
