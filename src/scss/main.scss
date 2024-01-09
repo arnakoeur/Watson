@@ -1,0 +1,212 @@
+/* ====================================
+// css variables
+// ==================================== */
+
+:root {
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+@import "bootstrap/scss/bootstrap-grid";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+
+.section-title {
+  font-family: open-sans, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 20px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+.headline-news {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.badge-suisse {
+  position: absolute;
+  top: 10px;
+  background-color: #7cd401;
+  color: white;
+  font-family: open-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  padding: 2px 10px;
+}
+
+.badge-inter {
+  position: absolute;
+  top: 10px;
+  background-color: #1837b6;
+  color: white;
+  font-family: open-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  padding: 2px 10px;
+}
+
+.badge-inter-out {
+  top: 10px;
+  background-color: #1837b6;
+  color: white;
+  font-family: open-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  padding: 2px 10px;
+}
+
+.badge-sport {
+  position: absolute;
+  top: 10px;
+  background-color: #e41e13;
+  color: white;
+  font-family: open-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  padding: 2px 10px;
+}
+
+.badge-society {
+  position: absolute;
+  top: 10px;
+  background-color: #068763;
+  color: white;
+  font-family: open-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  padding: 2px 10px;
+  p {
+    text-transform: capitalize;
+  }
+}
+
+.headline-news-title {
+  position: absolute;
+  bottom: 10px;
+  background-color: #f40f97;
+  color: white;
+  font-family: open-sans, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 13px;
+  width: 90%;
+  padding: 9px 12px;
+}
+
+.section-pink {
+  background-color: #f40f97;
+  margin-bottom: 60px;
+}
+
+.small-newsline {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+.small-newsline-hori {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+.small-newsline-2 {
+  background-color: #eeeeee;
+  padding: 10px;
+}
+
+.small-newsline-title {
+  font-family: open-sans, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 13px;
+  padding-bottom: 8px;
+}
+
+.border {
+  border-top: 0.5px solid black;
+}
+
+.headline-text {
+  font-family: open-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 11px;
+  padding-top: 10px;
+  padding-bottom: 24px;
+}
+
+.headline-date {
+  font-family: open-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10px;
+}
+
+.headline-author {
+  font-family: open-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 10px;
+}
+
+.medium-headline {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.medium-headline-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-black {
+  background-color: #222222;
+  margin-bottom: 60px;
+  padding: 30px 0px 60px 0px;
+}
+
+.small-newsline-hori {
+  display: flex;
+}
+/* ====================================
+// base rules
+// ==================================== */
